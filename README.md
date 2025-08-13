@@ -5,7 +5,6 @@
 SQL code to create the required databases:
 
 
-
 ```sql
 
 -- 1️⃣ Create Database
@@ -100,9 +99,10 @@ INSERT INTO \[User] (UserName, Password, UserType) VALUES
 
 
 
-You can create a file named: `init.sql` and run `sqlcmd -S DESKTOP-2232\\SQLEXPRESS -E -i init.sql`
-
+You can create a file named: `init.sql` and run `sqlcmd -S [SERVER_NAME] -E -i init.sql`
 to setup your database.
+
+SERVER_NAME can be something like `DESKTOP\SQLEXPRESS` or others.
 
 
 
